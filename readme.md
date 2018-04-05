@@ -1,22 +1,22 @@
 # Front end start summary
 
 ## 구조 디자인 
-    1. HTML (HyperTextMarkupLanguage)
+1. HTML (Hyper Text Markup Language)
     
-    2. - [브라우저는 어떻게 동작하는가](http://d2.naver.com/helloworld/59361)
-       - [시멘틱 마크업이란?](http://webclub.tistory.com/275)
+2.  - [브라우저는 어떻게 동작하는가](http://d2.naver.com/helloworld/59361)
+    - [시멘틱 마크업이란?](http://webclub.tistory.com/275)
 
-       제목요소의 Full name (heading)
-       단락요소의 tag name (p)
+    제목요소의 Full name (heading)
+    단락요소의 tag name (p)
 
-    3. [html 요소 구조](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started#HTML_%EC%9A%94%EC%86%8C(Element)%EC%9D%98_%EA%B5%AC%EC%A1%B0)
-
-        html 용어
-       <시작태그 속성="값">컨텐츠</닫는태그> => 엘리먼트
+3.  [html 요소 구조](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started#HTML_%EC%9A%94%EC%86%8C(Element)%EC%9D%98_%EA%B5%AC%EC%A1%B0)
     
-    4. [empty tag](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
+    html 용어
+    &lt;시작태그 속성="값"&gt;컨텐츠&lt;/닫는태그&gt; => 엘리먼트
     
-    5. DTD 정의이유
+4.  [empty tag](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
+    
+5.  DTD 정의이유
     [호환모드와 표준모드](https://developer.mozilla.org/ko/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
     
     6. 문서에 사용되는 주 언어 설정은 <html lang="주 언어">
