@@ -54,8 +54,7 @@
 
 16. embed 요소
 
-17. table
-    [table 예제 링크](http://www.daum.net)
+17. [table 예제 링크](http://www.daum.net)  
     tfoot요소는 html5 부터는 tbody뒤에 사용해도
 
 18. form
