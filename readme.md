@@ -67,7 +67,7 @@
 ### 16. embed 요소
 
 ### 17. table
-  [예제 링크](http://www.daum.net)  
+  [예제 링크](https://github.com/fireworks80/fron-end-start-summary/blob/master/structure-exam/tabular.html)  
   tfoot요소는 html5 부터는 tbody뒤에 사용해도
 
 ### 18. form
