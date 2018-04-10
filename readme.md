@@ -81,14 +81,14 @@
 e.g.) ![예제 이미지] (https://github.com/fireworks80/fron-end-start-summary/blob/master/images/form-no-label.PNG?raw=true)
 위와 같은 경우 label을 숨김 처리 하지 않고 **aria-label을 사용한다. 
     
-    &lt;form&gt;
-          &lt;p&gt;
-                &lt;input type="text" aria-label="카카오 계정(이메일)" placeholder="카카오 계졍(이메일)" &gt;
-          &lt;/p&gt;         
-          &lt;p&gt;
-                &lt;input type="text" aria-label="비밀번호(4 ~ 16자리)" placeholder="비밀번호(4 ~ 16자리)" &gt;
-          &lt;/p&gt;
-    &lt;/form&gt;      
+>     <form>
+>        <p>
+>         <input type="text" aria-label="카카오 계정(이메일)" placeholder="카카오 계졍(이메일)">
+>        </p>         
+>        <p>
+>         <input type="text" aria-label="비밀번호(4 ~ 16자리)" placeholder="비밀번호(4 ~ 16자리)">
+>           </p>
+>     </form>      
 
 ### 19. 인터렉티브 요소 (details, summary, dialog)
 
