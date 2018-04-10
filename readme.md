@@ -77,10 +77,18 @@
     그런 이유로 W3C는 폼 컨트롤을 p로 감싼것임.  
     div로 감쌌다고 해서 표준을 준수하지 않은것은 아니다.  
     하지만 보다 의미적은 가로 봤을땐 다르겠지만....  
-
-    만약 디자인 적으로 label을 사용하지 않을 경우
-e.g.) (/images/form-no-label.png)
-
+    
+e.g.) ![예제 이미지] (https://github.com/fireworks80/fron-end-start-summary/blob/master/images/form-no-label.PNG?raw=true)
+위와 같은 경우 label을 숨김 처리 하지 않고 **aria-label을 사용한다. 
+    
+    &lt;form&gt;
+          &lt;p&gt;
+                &lt;input type="text" aria-label="카카오 계정(이메일)" placeholder="카카오 계졍(이메일)" &gt;
+          &lt;/p&gt;         
+          &lt;p&gt;
+                &lt;input type="text" aria-label="비밀번호(4 ~ 16자리)" placeholder="비밀번호(4 ~ 16자리)" &gt;
+          &lt;/p&gt;
+    &lt;/form&gt;      
 
 ### 19. 인터렉티브 요소 (details, summary, dialog)
 
