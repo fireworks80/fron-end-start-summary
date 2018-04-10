@@ -83,10 +83,10 @@ e.g.) ![예제 이미지] (https://github.com/fireworks80/fron-end-start-summary
     
 >     <form>
 >        <p>
->         <input type="text" aria-label="카카오 계정(이메일)" placeholder="카카오 계졍(이메일)">
+>         <input type="text" **aria-label="카카오 계정(이메일)" placeholder="카카오 계졍(이메일)">
 >        </p>         
 >        <p>
->         <input type="text" aria-label="비밀번호(4 ~ 16자리)" placeholder="비밀번호(4 ~ 16자리)">
+>         <input type="text" **aria-label="비밀번호(4 ~ 16자리)" placeholder="비밀번호(4 ~ 16자리)">
 >           </p>
 >     </form>      
 
