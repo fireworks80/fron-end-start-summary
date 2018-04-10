@@ -78,15 +78,15 @@
     div로 감쌌다고 해서 표준을 준수하지 않은것은 아니다.  
     하지만 보다 의미적은 가로 봤을땐 다르겠지만....  
     
-e.g.) ![예제 이미지] (https://github.com/fireworks80/fron-end-start-summary/blob/master/images/form-no-label.PNG?raw=true)
-위와 같은 경우 label을 숨김 처리 하지 않고 **aria-label을 사용한다. 
+e.g.) ![예제 이미지](https://github.com/fireworks80/fron-end-start-summary/blob/master/images/form-no-label.PNG?raw=true)
+위와 같은 경우 label을 숨김 처리 하지 않고 **aria-label**을 사용한다. 
     
 >     <form>
 >        <p>
->         <input type="text" **aria-label="카카오 계정(이메일)" placeholder="카카오 계졍(이메일)">
+>         <input type="text" aria-label="카카오 계정(이메일)" placeholder="카카오 계졍(이메일)">
 >        </p>         
 >        <p>
->         <input type="text" **aria-label="비밀번호(4 ~ 16자리)" placeholder="비밀번호(4 ~ 16자리)">
+>         <input type="text" aria-label="비밀번호(4 ~ 16자리)" placeholder="비밀번호(4 ~ 16자리)">
 >           </p>
 >     </form>      
 
