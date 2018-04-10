@@ -79,7 +79,9 @@
     하지만 보다 의미적은 가로 봤을땐 다르겠지만....  
     
 e.g.) ![예제 이미지](https://github.com/fireworks80/fron-end-start-summary/blob/master/images/form-no-label.PNG?raw=true)
-위와 같은 경우 label을 숨김 처리 하지 않고 **aria-label**을 사용한다. 
+
+위와 같은 경우 label을 .a11y-hidden으로 접근성 숨김 처리 하지 않고 
+input 요소의 속성으로 **aria-label**을 사용한다. 
     
 >     <form>
 >        <p>
