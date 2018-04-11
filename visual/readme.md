@@ -13,7 +13,7 @@
 
 ### 3. css 선택자
 
-[예제](css-selectors.zip)
+[예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-selectors.zip)
 
 - **간단한 선택자**: 하나 이상의 요소에 element type, class 또는 id에 따라 대응합니다.
 
@@ -32,45 +32,45 @@
 
 ### 4. css 상속
 
-- [예제](css-inheritance.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-inheritance.zip)
 
 ### 5. css Cascade
 
-- [예제](css-cascade.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-cascade.zip)
 
 여러개의 css파일을 결합할때 충돌을 해결하는 프로세스가 cascade이다.
 
 ### 6. 타이포그래피
 
-- [예제](css-typography.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-typography.zip)
 
 ### 7. 박스모델
 
-- [예제](css-box-model.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-box-model.zip)
 
 ### 8. list 스타일링
 
-- [예제](css-list-styling.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-list-styling.zip)
 
 ### 9. 배경
 
-- [예제](css-backgrounds.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-backgrounds.zip)
 
 ### 10. 플로팅
 
-- [예제](css-layout-floating.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-layout-floating.zip)
 
 ### 11. 포지셔녕
 
-- [예제](css-layout-positioning.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-layout-positioning.zip)
 
 ### 12. 테이블 스타일링
 
-- [예제](css-table-styling.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-table-styling.zip)
 
 ### 13. 폼 스타일링
 
-- [예제](css-form-styling.zip)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-form-styling.zip)
 
 ### 14. css 2d 트랜스폼
 
