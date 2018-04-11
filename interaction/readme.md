@@ -24,7 +24,7 @@
 
 ### 4. 문서객체 접근
 
-- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/DOM-API__accessing-document-objects)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/DOM-API__accessing-document-objects.zip)
 
         tagName명으로 선택
         var tags = document.getElementsByTagName('태그명'); // HTMLCollection으로 반환
@@ -47,6 +47,20 @@
 
 ### 5. 함수(내장함수 / 사용자 정의 함수)
 
-- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/JavaScript-Functions)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/JavaScript-Functions.zip)
 
+### 6. 조건문
 
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-conditions-if-else.zip)
+
+### 7. 비교연산자와 논리연산자를 활요한 조건문
+
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-operators-typeof.zip)
+
+        * typeof는 Array, null을 'object'값을 리턴한다.
+
+### 8. switch, Date
+
+- [switch](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-condition-switch.zip)
+- [date](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-date-object.zip)
+- [switch-display-datetime](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-date-switch-display-datetime.zip)
