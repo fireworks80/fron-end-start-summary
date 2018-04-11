@@ -64,3 +64,16 @@
 - [switch](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-condition-switch.zip)
 - [date](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-date-object.zip)
 - [switch-display-datetime](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-date-switch-display-datetime.zip)
+
+### 9. 문(statement), 식(expression)
+
+- [식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%ED%91%9C%ED%98%84)
+- [문](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-condition-ternary-expression.zip)
+
+        *식 === 값
+        *문: 흐름제어, 선언, 함수, 클래스, 반복kb
+
+        var data1 = a && b; // a가 참이면 data1 = b가 되고 a가 거짓이면 data1 = a;
+        var data2 = a || b; // a가 찹이면 data2 = a; 가 된고 a가 거짓이면 data2 = b;
+
