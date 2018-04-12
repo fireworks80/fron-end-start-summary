@@ -77,3 +77,8 @@
         var data1 = a && b; // a가 참이면 data1 = b가 되고 a가 거짓이면 data1 = a;
         var data2 = a || b; // a가 찹이면 data2 = a; 가 된고 a가 거짓이면 data2 = b;
 
+### 10. DOM API 이벤트 핸들링
+
+- [mdn](https://developer.mozilla.org/ko/docs/Web/API/Event)
+
+  event handler는 DOM event에 연결된 함수.
