@@ -106,3 +106,21 @@
         //
         // 키를 놓으면 keyup 이벤트가 발생합니다.
         // (tab, caps lock 발생 X)
+
+### 12. 배열(Array)과 반복(while, do while, for, for in)
+
+        var menuList = els('.list');
+
+        var openPannel = function(e) {
+          e.preventDefault();
+          var figCaption = el('figcaption', this); // this는 openPannel 함수를 실행 시킨 주체를 가리킨다 (item);
+          figCaption.style.color = this.color; // item.color
+        };
+
+        for(var i = 0; i < menuList.length; i += 1) {
+          var item = menuList[i];
+          item.color = 'red'; // item은 객체이고 객체는 속성을 갖을 수 있으므로 item의     color이라는 속성에 red값을 넣는다.
+          item.addEventListener('click', openPannel);
+        }
+
+
