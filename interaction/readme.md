@@ -119,7 +119,7 @@
 
         for(var i = 0; i < menuList.length; i += 1) {
           var item = menuList[i];
-          item.color = 'red'; // item은 객체이고 객체는 속성을 갖을 수 있으므로 item의     color이라는 속성에 red값을 넣는다.
+          item.color = 'red'; // item은 객체이고 객체는 속성을 갖을 수 있으므로 item의 color이라는 속성에 red값을 넣는다.
           item.addEventListener('click', openPannel);
         }
 
