@@ -82,3 +82,27 @@
 - [mdn](https://developer.mozilla.org/ko/docs/Web/API/Event)
 
   event handler는 DOM event에 연결된 함수.
+
+        *lazyload
+
+
+### 11. Keyboard event
+
+- [mdn](https://developer.mozilla.org/ko/docs/Web/API/KeyboardEvent)
+        
+        // 키보드 이벤트 핸들링 (Keyboard Event Handling)
+        //
+        // - 이벤트 속성: keydown, keypress, keyup / input(HTML5)
+        // - 이벤트 객체 (Event Object)
+        //
+        // 이벤트 발생 순서
+        // keydown ➔ keypress ➔ keyup
+        //
+        // 키가 처음 눌려지면 keydown 이벤트가 발생합니다.
+        // (영문, 숫자, space, enter, 한글, tab, caps lock, shift, ctrl, alt(option), command, arrow, F1~12)
+        //
+        // keydown 이벤트 이후, keypress 이벤트가 발생합니다.
+        // (영문, 숫자, space, enter)
+        //
+        // 키를 놓으면 keyup 이벤트가 발생합니다.
+        // (tab, caps lock 발생 X)
