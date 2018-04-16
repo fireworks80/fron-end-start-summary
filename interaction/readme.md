@@ -123,4 +123,25 @@
           item.addEventListener('click', openPannel);
         }
 
+### 13. 이벤트 Load vs DOMContentLoaded
 
+- [async & defer 속성간 차이](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
+- [Asynchronouse vs Deferred JavaScript](https://bitsofco.de/async-vs-defer/)
+- [script의 async 와 defer 속성(한글)](https://blog.asamaru.net/2017/05/04/script-async-defer/)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/load-vs-dom_content_loaded--aysn-vs-defer.zip)
+    
+    서버에 요청한 Javascript 파일이 다운로드/실행되는 동안 HTML 해석(Parsing)은 일시정지 (Paused)상태가 된다. 이런 이유로 Javascript 호출/삽입 위치는 사용자 경험(UX)에 큰 영향을 미친다.
+
+    의존성: 현재 사용하는 index.js 파일에서 사용할 플러그인, helper 함수등 이 없을경우 index.js는 제대로 작동하지 않게 된다. 이런 경우 index.js에서 사용할 플러그인, helper 파일을 제대로 로드 해줘야 한다. 이런 경우 index.js 는 플러그인과, helper 파일에 의존하고 있다고 한다.
+
+    load event: image 까지 모두 load 후에 이벤트가 작동
+    DOMContentLoaded(ie9+): dom 구조가 완성되면 실행
+    
+    하지만 javascript를 다운로드 하는데 1초가 걸린다면 domcontentloaded 또한 1초가 걸린다.
+    가장 대표적인 해결 방법은 &lt;/body&gt;앞에 &lt;script&gt;를 넣는것이다.
+    그러면 이벤트(load , DomContentLoaded)가 필요가 없다.
+    이 또한 image가 로딩되는 거와 상관없어 dom구조가 완성되면 script를 실행 할 수 있다.
+
+    script defer: server에서 js를 받아올때 html의 파싱도 같이 되고 html 파싱이 끝나면 js파일이 실행이 된다.
+
+    script async: html파싱이 되면서 js도 같이 다운로드 되지만 js가 실행이 될때는 html의 파싱이 멈춘뒤 js의 실행이 끝나고 html의 나머지가 다시 파싱이 된다.
