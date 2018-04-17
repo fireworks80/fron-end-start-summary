@@ -103,9 +103,14 @@
 - [css trick](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [flexbox cheatseet](https://yoksel.github.io/flex-cheatsheet/#order)
     
+![컨테이너와 아이템 이미지](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/images/flex/flex1.PNG)
+
     ** container **
     주축(main axis)과 교차축(cross axis)
         
+
+![컨테이너와 아이템 이미지](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/images/flex/flex2.PNG)
+
         ** 주축 **
         .container {
             display: flex; // 부모가 display: flex일경우 **자식만 flex item**이 된다.        
