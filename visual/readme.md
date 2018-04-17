@@ -124,13 +124,16 @@
 
             justify-content: flex-start | center | flex-end | space-between | space-evenly; // 주축에 의한 자식들의 위치 설정            
         }
-
+        
         flex-wrap: nowrap(default) | wrap; // container 크기 보다 item의 길이가 넘칠 때 
-    
+        
+        **속기**
+        flex-flow: direction wrap;
+
         ** 교차축 **
         align-content: flex-start | center | flex-end | space-between | space-evenly | strech; // container안의 아이템들을 덩어리로 정렬
         
-        align-item: flex-start | center | flex-end | space-between | space-evenly | strech; // container의 개별 아이템의 정렬
+        align-items: flex-start | center | flex-end | baseline | strech(default); // container의 개별 아이템의 정렬
 
     ** item **
         flex item은 기본적으로 flex-shrink(flex의 자식요소가 줄어듦)이 1로 설정되어 있어서 container의 크기에 맞춰서 자식요소의 크기가 정해지므로 width를 줘도 크기가 변하지 않는다.
@@ -152,4 +155,14 @@
 
         위의 3개를 단축해서 사용 할 수 있다.
 
-        flex: grow shrink basis;
+        item {
+            flex: grow shrink basis;
+        }
+
+        order: 내가 원하는 요소의 위치를 설정 할 수 있다.
+
+        p:nth-child(2) { order: 3; } // 현재 나의 위치가 0 임
+
+        align-self: auto(default) | flex-start | flex-end | center | baseline | stretch; // container에서의 align-items와 유사함 
+                   // align-items는 부모가 자식들에게 일괄적으로 적용
+                   // align-self는 자식 자신한테 설정
