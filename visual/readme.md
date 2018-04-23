@@ -167,3 +167,24 @@
         align-self: auto(default) | flex-start | flex-end | center | baseline | stretch; // container에서의 align-items와 유사함 
                    // align-items는 부모가 자식들에게 일괄적으로 적용
                    // align-self는 자식 자신한테 설정
+
+### 20. css 보더 이미지
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/practice-assets.zip)
+- [실습 codepen](https://codepen.io/fireworks80/pen/odbojp)
+
+### 21. css 멀티 컬럼 레이아웃
+- [살습 codepen](https://codepen.io/fireworks80/pen/GdoOow)
+
+### 22. css 그리드 레이아웃
+- [css grid 용어](https://codepen.io/fireworks80/pen/WJrXJQ)
+- [간단한 그리드 레이아웃 (실습)](https://codepen.io/fireworks80/pen/odbodP)
+- [그리드 라인 인덱스를 사용한 아이템 위치 설절 (실습)](https://codepen.io/fireworks80/pen/pVgdKN)
+- [오더 속성을 사용한 아이템 위치 설정 (실습)](https://codepen.io/fireworks80/pen/YLwEjd)
+- [웹사이트 기본 레이아웃 grid-area(실습)](https://codepen.io/fireworks80/pen/KRVyGN)
+- [grid-template-areas(실습)](https://codepen.io/fireworks80/pen/GdoOYb)
+- [grid-auto-flow(실습)](https://codepen.io/fireworks80/pen/WJrXYw)
+- [자동 배치 패킹 모드(실습)](https://codepen.io/fireworks80/pen/RyrjqO)
+- [행/열 기준 내부 아이템 정렬(실습)](https://codepen.io/fireworks80/pen/ZoQaVJ)
+- [grid example](https://gridbyexample.com/)
+- [css grid playground](https://www.cssgridplayground.com/)
+- [css grid layout 한글 번역](https://github.com/fireworks80/CSS-Grid)
