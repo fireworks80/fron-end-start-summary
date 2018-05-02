@@ -145,3 +145,93 @@
     script defer: server에서 js를 받아올때 html의 파싱도 같이 되고 html 파싱이 끝나면 js파일이 실행이 된다.
 
     script async: html파싱이 되면서 js도 같이 다운로드 되지만 js가 실행이 될때는 html의 파싱이 멈춘뒤 js의 실행이 끝나고 html의 나머지가 다시 파싱이 된다.
+ 
+ ### 14 값복사 / 값 참조
+
+- [codepen 실습](https://codepen.io/fireworks80/pen/QrvgGd)
+- [데이터 복사, 전달 및 비교](https://docs.microsoft.com/ko-kr/scripting/javascript/advanced/copying-passing-and-comparing-data-javascript)
+- [java에서의 값 복사 / 값 참조](http://www.mathwarehouse.com/programming/passing-by-value-vs-by-reference-visual-explanation.php)
+
+
+    값복사
+    - null
+    - undefined
+    - number
+    - string
+    - boolean
+
+    값참조
+    - array
+    - object
+    - function
+
+ ### 15. 함수영역 vs 블록영영
+ - [codepen 실습](https://codepen.io/fireworks80/pen/jxmwZL)
+ - [변수, 전역, 함수, 블록 영역 wiki](https://ko.wikipedia.orgwiki/%EB%B3%80%EC%88%98_%EC%98%81%EC%97%AD)
+    
+    javascript는 c 언어의 영향을 받았지만 블록 스코프를 지원 하지 않는다.
+    하지만 ECMAScript 2015(es6)를 사용하게 되면서
+    var -> let를 사용하게 되고 블록스코프를 지원하게 된다.
+
+### 16. 변수, 함수 호이스팅 / 스코프체이닝
+
+- [codepen 실습](https://codepen.io/fireworks80/pen/wjdeNd?editors=0010)
+- [호이스팅 mdn](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
+- [변수 mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/var)
+- [함수 mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/function)
+- [스코프 체이닝](http://knphouse.co.kr/91)
+    
+    실행컨텍스트: 실행되는 영역
+    
+    e.g.)
+    var a = 'alpha';
+    function b() {
+        console.log('b');
+    }
+
+    conosole.log(a); //a
+    b(); // b
+
+    // ---------------------------------------------------
+    
+    d(); // d
+    console.log(c); // undefined
+
+    var c = 'c';
+    function d() {
+        console.log('d');
+    }
+
+    // 작성된 코드를 outer environment에서 해석을 해서 브라우저에서 실행을 시킨다.
+    // 컵퓨터는 변수 및 함수선언은 컴파일 단계에서 메모리에 저장된다.
+    // 위의 코드가 실행되기 전에 var c , function d(){} 를 메모리에 먼저 등록이 된다.
+    // 그래서 function d는 실행이 가능하다.
+    // 변수: 변수선언 - 변수에 값할당 - 변수 스코프를 설정과정을 거치는데.
+    // var c가 먼저 메모리에 할당 되므로 c에는 undefined가 할당 되어 있다.
+
+    // 스코프 체이닝
+    // 변수를 포함한 스코프 내에서 해당 변수가 없을 경우 현재 스코프를 포함하고 있는 상위 스코프로 이동하면서 해당 변수를 찾는 것
+
+    e.g.)
+
+    function a(d) {
+        var x = d;
+        b(x + 10);
+
+        function b(y) {
+            c();
+
+            function c() {
+                var z = 3;
+                console.log(x + y + z); // y는 자신의 컨텍스트에 없으므로 상위인 b()로 이동
+                                        // x는 자신의 컨텍스트와 상위인 b()에도 없으면서 a()로 이동하여 찾는다.
+            }
+        }
+    }
+
+    a(10);
+
+    // 스코프 체이닝은 성능관점에서 비용이 많이 들어가므로  함수의 중첩은 가능하면 피한다.
+
+    // 코드작성 요령
+    // 번수 선언 / 초기화, 함수 선언/표현식을 scope 최상단에 작성하자.
