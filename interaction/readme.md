@@ -235,3 +235,33 @@
 
     // 코드작성 요령
     // 번수 선언 / 초기화, 함수 선언/표현식을 scope 최상단에 작성하자.
+
+
+### 17. IIFE 
+
+- [codepen](https://codepen.io/fireworks80/pen/ELXgbB)
+- [mdn iife](https://developer.mozilla.org/ko/docs/Glossary/IIFE)
+
+    (function() {
+            // 1. ()로 둘러쌓인 익명함수
+            //     - 캡슐화
+            //     - 전역범위의 오염을 방지
+            //     - IIFE 내부 변수에 접근하는것을 방지
+    }());
+
+### 18. closure
+
+- [codepen](https://codepen.io/fireworks80/pen/WJOoOW)
+- [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures)
+
+    // 함수와 함수가 선언된 어휘적 환경(Lexical scoping)(자유변수)의 조합
+    
+
+** 리팩토링 **
+- 리팩토링은 새로운 기능 추가 없이 소스 코드의 구조(조직적,체계적)를 향상시키는 일련의 과정
+- 리팩토링의 목적은 기술적 부채(technical debt)를 값아서 없애는 것
+- 리팩토링의 결과로 깔끔한 코드(clean code)와 심플한 설계를 얻는 것
+
+- [codepen](https://codepen.io/fireworks80/pen/deRVMW)
+- [리팩토링이란?](http://kwangshin.pe.kr/blog/2015/02/17/refactoring-study/)
+- [리팩토링 slideshare](https://www.slideshare.net/bbongcsu/refactoring-tutorial-1refactoring)
