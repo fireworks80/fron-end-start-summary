@@ -265,3 +265,25 @@
 - [codepen](https://codepen.io/fireworks80/pen/deRVMW)
 - [리팩토링이란?](http://kwangshin.pe.kr/blog/2015/02/17/refactoring-study/)
 - [리팩토링 slideshare](https://www.slideshare.net/bbongcsu/refactoring-tutorial-1refactoring)
+
+### 19. 숫자 / 수학 객체 
+
+- [숫자와 날짜](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Numbers_and_dates)
+- [부동소수점](https://ko.wikipedia.org/wiki/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90)
+- [부동소수점 연산의 정밀도와 정확도](https://support.microsoft.com/ko-kr/help/125056/info-precision-and-accuracy-in-floating-point-calculations)
+- [실수 연산 오류](http://sunychoi.github.io/javascript/2015/04/05/javascript-float-type-error.html)
+- [javascript number](http://jun.hansung.ac.kr/CWP/Javascript/JavaScript%20Numbers.html)
+- [codepen](https://codepen.io/fireworks80/pen/odpxQj)
+
+### 20. 문자열 리터럴 / 객체 활용
+
+- [String 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [문자열 제대로 다루기](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/Useful_string_methods)
+- [navigator.userAgent](https://developer.mozilla.org/en-US/docs/Web/API/Window/navigator)
+- [slice()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+- [indexOf()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
+- [createElement()](https://developer.mozilla.org/ko/docs/Web/API/Document/createElement)
+- [appendChild()](https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild)
+
+
+
