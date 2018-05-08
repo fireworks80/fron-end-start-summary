@@ -286,4 +286,12 @@
 - [appendChild()](https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild)
 
 
+### 21. 함수
 
+- [용어사전](https://developer.mozilla.org/ko/docs/Glossary/Function)
+- [가이드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%ED%95%A8%EC%88%98)
+- [function  객체 속성과 메서드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function)
+- [call()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+- [apply()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+- [bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+- [계승](https://ko.wikipedia.org/wiki/%EA%B3%84%EC%8A%B9)
