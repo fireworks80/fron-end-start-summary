@@ -295,3 +295,64 @@
 - [apply()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 - [bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 - [계승](https://ko.wikipedia.org/wiki/%EA%B3%84%EC%8A%B9)
+
+### 22. Array
+
+- [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- isArray
+- length
+- concat()
+- forEach()
+- indexOf()
+- join()
+- map()
+- pop()
+- reduce()
+- reverse()
+- shift()
+- slice()
+- sort()
+- splice()
+- unshift()
+
+    splice() // 배열의 데이터 삭제
+    slice() // 배열 복사
+
+    // 변경 메서드(원본 배열 데이터 수정)
+    push()
+    pop()
+    unshift()
+    shift()
+    reverse()
+    sort()
+    splice()
+
+    // 접근 메서드(원본 배열 데이터 보존)
+    concat()
+    indexOf()
+    lastIndexOf()
+    join()
+    slice()
+    toString()
+
+    // 반복 메서드(원본 배열 데이터 보존) 
+    forEach(function(item, index){})
+    map(function(item, index){})
+    filter(function(item, index){})
+    every(function(item, index){})
+    some(function(item, index){})
+    reduce(function(item, index){})
+
+### 23. Object
+
+- [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- create()
+- defineProperty()
+- defineProperties()
+- preventExtensions()
+- isExtensible()
+- seal()
+- isSealed()
+- freeze()
+- isFrozen()
+- hasOwnProperty() 인스턴스 메서드
