@@ -356,3 +356,10 @@
 - freeze()
 - isFrozen()
 - hasOwnProperty() 인스턴스 메서드
+
+### 24. 생성자 함수와 프로토타입 객체는
+
+- [codepen](https://codepen.io/fireworks80/pen/YLayMV)
+- [new 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/new)
+- [생성자 함수 사용하기](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Obsolete_Pages/Core_JavaScript_1.5_Guide/Creating_New_Objects/Using_a_Constructor_Function)
+- [상속과 프로토 타입](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
