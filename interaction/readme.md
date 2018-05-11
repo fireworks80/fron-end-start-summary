@@ -2,16 +2,37 @@
 
 ## 인터렉션 디자인(JavaScript)
 
-### 1. 자바스크립트란?
+### 4-1 자바스크립트란?
 
 - [sef2017 '디자이너 디자인에 코딩을 더하다' 영상](http://www.edwith.org/sef2017/lecture/11260)
 - [sef2017 '디자이너 디자인에 코딩을 더하다' 키노트](https://www.slideshare.net/jeehoon/sef-2017)
 
-### 2. console 패널 사용법
+### 4-2 최고의 javascript 교과서란?
+
+- [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript)
+
+### 4-3 console 패널 사용법
 
 - [개발도구  콘솔 패널 사용법](https://developers.google.com/web/tools/chrome-devtools/console/?hl=ko)
 
-### 3. 형변환
+### 4-4 주석(Comments) & 디버깅(Debugging)​
+....
+
+### [4-5] 선언(Declaration) & 할당(Assignment)
+
+- [문법과 타입](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
+
+### [4-6] 인터랙션 디자인의 시작 - "an문서 객체가 가진 값 그리고 변수"
+....
+
+### 4-7 데이터 유형(Data Types) & 리터럴(Literal)
+....
+
+### 4-8 변수 이름 작성 규칙(Naming Convention)
+....
+
+
+### 4-9 동적 형 지정 언어 & 자동 형 변환
 
         parseInt('문자열', '진법'); // 숫자로된 문자 뿐만 아니라 글자가 있는 숫자 값도 숫자로 파싱됨
 
@@ -22,7 +43,11 @@
         e.g.) Number('20'); // 20 (Number)
 
 
-### 4. 문서객체 접근
+### 4-10 문서 객체의 ID 속성 이름 값 만으로 대상을 선택해서는 안되는 이유
+
+- [변수의 호이스팅](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#%EB%B3%80%EC%88%98_%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85)
+
+### 4-11 문서객체 접근
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/DOM-API__accessing-document-objects.zip)
 
@@ -45,27 +70,27 @@
         * HTMLCollection은 예전 버전에서 사용 했으므로 더이상 사용하지 말것
         * NodeList의 사용을 권장한다.
 
-### 5. 함수(내장함수 / 사용자 정의 함수)
+### 4-12 함수(내장함수 / 사용자 정의 함수)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/JavaScript-Functions.zip)
 
-### 6. 조건문
+### 4-13 조건문
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-conditions-if-else.zip)
 
-### 7. 비교연산자와 논리연산자를 활요한 조건문
+### 4-14 비교연산자와 논리연산자를 활요한 조건문
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-operators-typeof.zip)
 
         * typeof는 Array, null을 'object'값을 리턴한다.
 
-### 8. switch, Date
+### 4-15 switch, Date
 
 - [switch](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-condition-switch.zip)
 - [date](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-date-object.zip)
 - [switch-display-datetime](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-date-switch-display-datetime.zip)
 
-### 9. 문(statement), 식(expression)
+### 4-16 문(statement), 식(expression)
 
 - [식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%ED%91%9C%ED%98%84)
 - [문](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements)
@@ -77,7 +102,7 @@
         var data1 = a && b; // a가 참이면 data1 = b가 되고 a가 거짓이면 data1 = a;
         var data2 = a || b; // a가 찹이면 data2 = a; 가 된고 a가 거짓이면 data2 = b;
 
-### 10. DOM API 이벤트 핸들링
+### 4-17 DOM API 이벤트 핸들링
 
 - [mdn](https://developer.mozilla.org/ko/docs/Web/API/Event)
 
@@ -86,7 +111,16 @@
         *lazyload
 
 
-### 11. Keyboard event
+### 4-18 DOM API click 이벤트 핸들링
+
+- [마우스 이벤트](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)
+- [click event](https://developer.mozilla.org/ko/docs/Web/Events/click)
+- [event.preventDefault](https://developer.mozilla.org/ko/docs/Web/API/Event/preventDefault)
+- [오디오 객체](https://developer.mozilla.org/ko/docs/Web/API/HTMLAudioElement)
+- [오디오 객체 메서드](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play)
+- [오디오 객체 currentTime](https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/currentTime)
+
+### 4-19 Keyboard event
 
 - [mdn](https://developer.mozilla.org/ko/docs/Web/API/KeyboardEvent)
         
@@ -107,7 +141,7 @@
         // 키를 놓으면 keyup 이벤트가 발생합니다.
         // (tab, caps lock 발생 X)
 
-### 12. 배열(Array)과 반복(while, do while, for, for in)
+### 4-20 배열(Array)과 반복(while, do while, for, for in)
 
         var menuList = els('.list');
 
@@ -123,7 +157,7 @@
           item.addEventListener('click', openPannel);
         }
 
-### 13. 이벤트 Load vs DOMContentLoaded
+### 4-21 이벤트 Load vs DOMContentLoaded
 
 - [async & defer 속성간 차이](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 - [Asynchronouse vs Deferred JavaScript](https://bitsofco.de/async-vs-defer/)
@@ -146,7 +180,7 @@
 
     script async: html파싱이 되면서 js도 같이 다운로드 되지만 js가 실행이 될때는 html의 파싱이 멈춘뒤 js의 실행이 끝나고 html의 나머지가 다시 파싱이 된다.
  
- ### 14 값복사 / 값 참조
+ ### 4-22 값복사 / 값 참조
 
 - [codepen 실습](https://codepen.io/fireworks80/pen/QrvgGd)
 - [데이터 복사, 전달 및 비교](https://docs.microsoft.com/ko-kr/scripting/javascript/advanced/copying-passing-and-comparing-data-javascript)
@@ -165,7 +199,7 @@
     - object
     - function
 
- ### 15. 함수영역 vs 블록영영
+ ### 4-23 함수영역 vs 블록영영
  - [codepen 실습](https://codepen.io/fireworks80/pen/jxmwZL)
  - [변수, 전역, 함수, 블록 영역 wiki](https://ko.wikipedia.orgwiki/%EB%B3%80%EC%88%98_%EC%98%81%EC%97%AD)
     
@@ -173,7 +207,7 @@
     하지만 ECMAScript 2015(es6)를 사용하게 되면서
     var -> let를 사용하게 되고 블록스코프를 지원하게 된다.
 
-### 16. 변수, 함수 호이스팅 / 스코프체이닝
+### 4-24 변수, 함수 호이스팅 / 스코프체이닝
 
 - [codepen 실습](https://codepen.io/fireworks80/pen/wjdeNd?editors=0010)
 - [호이스팅 mdn](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
@@ -237,7 +271,7 @@
     // 번수 선언 / 초기화, 함수 선언/표현식을 scope 최상단에 작성하자.
 
 
-### 17. IIFE 
+### 4-25 IIFE 
 
 - [codepen](https://codepen.io/fireworks80/pen/ELXgbB)
 - [mdn iife](https://developer.mozilla.org/ko/docs/Glossary/IIFE)
@@ -249,7 +283,7 @@
             //     - IIFE 내부 변수에 접근하는것을 방지
     }());
 
-### 18. closure
+### 4-26 closure
 
 - [codepen](https://codepen.io/fireworks80/pen/WJOoOW)
 - [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures)
@@ -266,7 +300,7 @@
 - [리팩토링이란?](http://kwangshin.pe.kr/blog/2015/02/17/refactoring-study/)
 - [리팩토링 slideshare](https://www.slideshare.net/bbongcsu/refactoring-tutorial-1refactoring)
 
-### 19. 숫자 / 수학 객체 
+### 4-27 숫자 / 수학 객체 
 
 - [숫자와 날짜](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Numbers_and_dates)
 - [부동소수점](https://ko.wikipedia.org/wiki/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90)
@@ -275,7 +309,7 @@
 - [javascript number](http://jun.hansung.ac.kr/CWP/Javascript/JavaScript%20Numbers.html)
 - [codepen](https://codepen.io/fireworks80/pen/odpxQj)
 
-### 20. 문자열 리터럴 / 객체 활용
+### 4-28 문자열 리터럴 / 객체 활용
 
 - [String 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String)
 - [문자열 제대로 다루기](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/Useful_string_methods)
@@ -286,7 +320,7 @@
 - [appendChild()](https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild)
 
 
-### 21. 함수
+### 4-29 함수객체 활용
 
 - [용어사전](https://developer.mozilla.org/ko/docs/Glossary/Function)
 - [가이드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%ED%95%A8%EC%88%98)
@@ -296,7 +330,7 @@
 - [bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 - [계승](https://ko.wikipedia.org/wiki/%EA%B3%84%EC%8A%B9)
 
-### 22. Array
+### 4-30 배열 객체활용
 
 - [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - isArray
@@ -343,7 +377,7 @@
     some(function(item, index){})
     reduce(function(item, index){})
 
-### 23. Object
+### 4-31 객체 생성/상속/속성 고급 제어
 
 - [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - create()
@@ -357,9 +391,57 @@
 - isFrozen()
 - hasOwnProperty() 인스턴스 메서드
 
-### 24. 생성자 함수와 프로토타입 객체는
+### 4-32 생성자 함수와 프로토타입 객체
 
 - [codepen](https://codepen.io/fireworks80/pen/YLayMV)
 - [new 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/new)
 - [생성자 함수 사용하기](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Obsolete_Pages/Core_JavaScript_1.5_Guide/Creating_New_Objects/Using_a_Constructor_Function)
 - [상속과 프로토 타입](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
+
+### 4-33 객체 지향 프로그래밍 & 상속
+
+- [codepen](https://codepen.io/fireworks80/pen/QrrWjg)
+- [상속](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
+- [objectplayground.com](http://www.objectplayground.com/)
+- [러시안 블루](https://ko.wikipedia.org/wiki/%EB%9F%AC%EC%8B%9C%EC%95%88_%EB%B8%94%EB%A3%A8)
+- [객체 지향 프로그래밍](https://namu.wiki/w/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+- [객체 지향 자바 스크립트](https://developer.mozilla.org/ko/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+
+### 4-34 객체지향 프로그래밍 용어
+    용어정리
+    - Class - 객체 속성(Properties)을 정의합니다. ( 예: 설계 도면 )
+    - Object - Class의 인스턴스(Instance) 입니다. ( 예: 설계 도면을 통해 구현된 실제 제품 )
+    - Property - 객체의 속성을 말합니다. ( 예: color 등과 같은 명사 형태 )
+    - Method - 객체의 기능을 말합니다.( 예: walk() 등과 같은 동사 형태 )
+    - Constructor - 인스턴스 생성 순간에 호출 실행되는 메서드입니다.
+    - Inheritance - Class는 다른 Class로 부터 속성들을 상속받을 수 있습니다. (Super Class ⇒ Sub Class)
+    - Encapsulation - Class는 해당 객체의 속성, 메서드 만 정의할 수 있습니다. (외부 접근 불가)
+    - Abstraction - 복잡한 상속, 메서드, 객체 속성의 결합은 반드시 현실 모델을 시뮬레이션할 수 있어야 합니다.
+    - Polymorphism - 다른 Class 들이 같은 메서드나 속성으로 정의될 수 있습니다.
+
+### 4-35. 함수형 프로그래밍 vs 객체지향 프로그래밍
+
+- [함수형 프로그래밍으로 UI인터랙션 디자인 야무 git fork](https://gist.github.com/fireworks80/935672ed803e0e9774912fa8c78283a6)
+- [객체지향 프로그래밍으로 UI인터랙션 디자인 야무 git fork](https://gist.github.com/fireworks80/c26bf04689af16feef9afe22ff8acb4c)
+- [프로그래밍 패러다임](http://melodyonlight.com/?p=374)
+- [함수형 프로그래임 vs 객체지향형 프로그래밍](https://madplay.github.io/post/2017/12/27/001)
+
+    // 함수형 라이브러이 (underscore, Lodash)
+    // 객체지향형 라이브러리 (jQuery)
+
+### 4-36. dom api part1: 문서프로그래밍 인터페이스
+
+- [codepen](https://codepen.io/fireworks80/pen/deePBd)
+- [참고 문서](https://d3gvvapon6fqzo.cloudfront.net/pdf_viewer/web/viewer.html?file=https://www.filepicker.io/api/file/KzKYFdjISUiKDukUzInF)
+- [DOM](https://developer.mozilla.org/ko/docs/DOM)
+- [web api](https://developer.mozilla.org/ko/docs/Web/API)
+- [youtube api](https://developers.google.com/youtube/iframe_api_reference?hl=ko)
+    
+    // node list
+    // querySelector, querySelectorAll로 수집된 집합은 다른 선택 api와 달리 라이브 상태가 아닌 일종의 수집 상태를 기억하는 스탭샷이다. 즉 문서의 변경된 내용이 반영되지 않는다.
+
+    // html collection
+    //getElementById, getElementsByClassName, getElementsByTagName은 수집된 집합은 라이브 상태이다.
+
+    // nextSibling, previousSibling은 노드를 찾는다
+    // nextElementSibling, previousElementSibling은 요소 노드를 찾는다.
