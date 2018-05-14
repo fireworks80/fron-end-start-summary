@@ -445,3 +445,16 @@
 
     // nextSibling, previousSibling은 노드를 찾는다
     // nextElementSibling, previousElementSibling은 요소 노드를 찾는다.
+
+### 4-37 dom api part2: 문서 / 노드 메서드
+
+- [codepen](https://codepen.io/fireworks80/pen/jxKJam)
+- [hasChildNodes](https://developer.mozilla.org/ko/docs/Web/API/Node/hasChildNodes)
+- [createElement](https://developer.mozilla.org/ko/docs/Web/API/Document/createElement)
+- [createTextNode](https://developer.mozilla.org/ko/docs/Web/API/Document/createTextNode)
+- [appendChild](https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild)
+- [setAttribute](https://developer.mozilla.org/ko/docs/Web/API/Element/setAttribute)
+- [removeChild](https://developer.mozilla.org/ko/docs/Web/API/Node/removeChild)
+- [replaceChild](https://developer.mozilla.org/ko/docs/Web/API/Node/replaceChild)
+- [cloneNode](https://developer.mozilla.org/ko/docs/Web/API/Node/cloneNode)
+- [cssText](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/cssText)
