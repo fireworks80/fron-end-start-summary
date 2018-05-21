@@ -458,3 +458,27 @@
 - [replaceChild](https://developer.mozilla.org/ko/docs/Web/API/Node/replaceChild)
 - [cloneNode](https://developer.mozilla.org/ko/docs/Web/API/Node/cloneNode)
 - [cssText](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/cssText)
+
+### 4-38 dom api part3: 문서 / 노드 메서드
+
+- [codepen](https://codepen.io/fireworks80/pen/xjMjrr)
+- [함수형 dom 스크립트 라이브러리](https://gist.github.com/fireworks80/935672ed803e0e9774912fa8c78283a6)
+- [mdn: children ~ insertAdjacentText()](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children)
+
+### 4-39 DOM API - HTML 요소 스타일 속성, 메서드
+
+- [style](https://developer.mozilla.org/ko/docs/Web/API/HTMLElement/style)
+- [getComputedStyle()](https://developer.mozilla.org/ko/docs/Web/API/Window/getComputedStyle)
+- [계산된 값Computed value](https://developer.mozilla.org/ko/docs/Web/CSS/computed_value)
+- [StyleSheetList](https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList)
+- [y9.css()](https://gist.github.com/fireworks80/935672ed803e0e9774912fa8c78283a6)
+- [Spoqa Han Sans](https://spoqa.github.io/spoqa-han-sans/ko-KR/)
+
+### 4-40 DOM API - Part 5 : CSS 객체 모델(CSSOM)
+
+- [codepen 실습](https://codepen.io/fireworks80/pen/GdzXoG)
+- [DOM API Part 5 - cssom codepen](https://codepen.io/fireworks80/pen/vjbzXR)
+- [cssom](https://developer.mozilla.org/ko/docs/Web/API/CSS_Object_Model)
+- [cssom vs view module](https://www.w3.org/TR/cssom-view-1/)
+- [Determining the dimensions of elements](https://developer.mozilla.org/ko/docs/Determining_the_dimensions_of_elements)
+- [getB oundingClientRect() 호환성](https://caniuse.com/#search=getBoundingClientRect)
