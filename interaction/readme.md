@@ -482,3 +482,33 @@
 - [cssom vs view module](https://www.w3.org/TR/cssom-view-1/)
 - [Determining the dimensions of elements](https://developer.mozilla.org/ko/docs/Determining_the_dimensions_of_elements)
 - [getB oundingClientRect() 호환성](https://caniuse.com/#search=getBoundingClientRect)
+
+### 4-41 Ajax 프로그래밍 - Part 1 : 서버 환경 구성
+
+- [nvm으로 node.js버전 관리하기](https://sharryhong.github.io/2016/12/20/nodejs-nvm/)
+- [ajax](https://developer.mozilla.org/ko/docs/Web/Guide/AJAX)
+- [nodejs](https://nodejs.org/en/)
+- [nvm](https://github.com/creationix/nvm)
+- [nvm for window](https://github.com/coreybutler/nvm-windows)
+- [git for window](https://gitforwindows.org/)
+- [live server](https://www.npmjs.com/package/live-server)
+
+### 4-42 Ajax 프로그래밍 - Part 2 : XMLHttpRequest 객체 / 동기(Sync) 통신
+
+...
+
+### 4-43 Ajax 프로그래밍 - Part 3 : 비동기(Async) 통신 / ajax 심플 라이브러리
+- [ajax 심플 라이브러리 야무님 코드 fork](https://gist.github.com/fireworks80/53655ec27724675d54ae2a0a82e99259)
+- [Dom 라이브러리 야무님 코드 fork](https://gist.github.com/fireworks80/c26bf04689af16feef9afe22ff8acb4c)
+- [practice.zip](https://github.com/fireworks80/fron-end-start-summary/blob/master/exam/Ajax-practice.zip)
+
+### 4-44 Ajax 프로그래밍 - Part 4 : 크로스 도메인 간, 비동기 통신 이슈(보안 정책) / 해결책
+
+- [동일 출처 정책(SOP)](https://developer.mozilla.org/ko/docs/Web/Security/Same-origin_policy)
+- [HTTP 접근 제어(CORS)](https://developer.mozilla.org/ko/docs/Web/HTTP/Access_control_CORS)
+- [JSONP](https://www.google.co.kr/search?q=JSONP)
+- [jsonp helper 야무님 gist fork](https://gist.github.com/fireworks80/b1737e9c04c4370477127ed5e0e3fd27)
+- [cors url 야무님 gist fork](https://gist.github.com/fireworks80/76bb6967efa9a690bf8a9aa3d3cfe58c)
+- [crossorigin.me](http://crossorigin.me/)
+- [myjson.com](http://myjson.com/)
+- [practice.zip](https://github.com/fireworks80/fron-end-start-summary/blob/master/exam/SOP-practice.zip)
