@@ -483,6 +483,10 @@
 - [Determining the dimensions of elements](https://developer.mozilla.org/ko/docs/Determining_the_dimensions_of_elements)
 - [getB oundingClientRect() 호환성](https://caniuse.com/#search=getBoundingClientRect)
 
+### [미션 4-8] 레인지 슬라이더(Range Slider) 인터랙션
+
+- [codepen](https://codepen.io/fireworks80/pen/vjMpEg)
+
 ### 4-41 Ajax 프로그래밍 - Part 1 : 서버 환경 구성
 
 - [nvm으로 node.js버전 관리하기](https://sharryhong.github.io/2016/12/20/nodejs-nvm/)
@@ -498,6 +502,7 @@
 ...
 
 ### 4-43 Ajax 프로그래밍 - Part 3 : 비동기(Async) 통신 / ajax 심플 라이브러리
+
 - [ajax 심플 라이브러리 야무님 코드 fork](https://gist.github.com/fireworks80/53655ec27724675d54ae2a0a82e99259)
 - [Dom 라이브러리 야무님 코드 fork](https://gist.github.com/fireworks80/c26bf04689af16feef9afe22ff8acb4c)
 - [practice.zip](https://github.com/fireworks80/fron-end-start-summary/blob/master/exam/Ajax-practice.zip)
@@ -512,3 +517,14 @@
 - [crossorigin.me](http://crossorigin.me/)
 - [myjson.com](http://myjson.com/)
 - [practice.zip](https://github.com/fireworks80/fron-end-start-summary/blob/master/exam/SOP-practice.zip)
+
+### 4-45 Ajax 프로그래밍 - Part 5 : 실무에서 자주 활용되는 Ajax 라이브러리
+
+- jsfiddle.net
+- [jquery ajax](http://api.jquery.com/category/ajax/)
+- [myjson](http://myjson.com/jsw6v)
+- [y9 ediya json][https://yamoo9.herokuapp.com/rest/ediya-menu]
+
+### 미션 4-9 "동일 출처 정책(SOP)" 보안 이슈를 우회하는 비동기 프로그래밍
+
+- [codepen](https://codepen.io/fireworks80/pen/odRpwx)
