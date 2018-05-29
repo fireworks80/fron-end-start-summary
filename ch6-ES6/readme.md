@@ -92,3 +92,87 @@ const 선언은 값에 읽기 전용 참조를 생성합니다. 담긴 값이 �
 
 **참고자료**
 - [템플릿 리터럴 (Template literals) [ES6]](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals)
+
+## [6-4] 문자(String) 객체의 새로운 메서드
+
+**ES6 : 문자 객체의 새로운 메서드**
+
+문자 객체에 새롭게 추가된 인스턴스 메서드에 대해 알아봅시다. :-)
+기존에는 별도의 헬퍼 함수를 만들어야 했던 기능을 이제는 기본적으로 제공해줍니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [.includes()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
+- [.startsWith()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
+- [.endsWith()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith)
+- [.repeat()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)
+
+## [6-5] 화살표 함수식 / this 참조
+
+**ES6 : 화살표 함수 식 / this 참조**
+
+화살표 함수 식(arrow function expression)은 function 표현에 비해 
+구문이 짧고 자신의 this, arguments, super 또는 new.target 을 
+바인딩 하지 않습니다.
+
+화살표 함수는 항상 "익명"입니다. 이 함수 표현은 메소드 함수가 
+아닌 곳에 가장 적당합니다. 그래서 생성자 함수로 사용할 수 없습니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [화살표 함수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/%EC%95%A0%EB%A1%9C%EC%9A%B0_%ED%8E%91%EC%85%98)
+
+      매개 변수가 1개일 때는 () 생략 가능 / 그 외에는 () 필수
+      
+      let test = 0 => ...;
+      // 또는
+      let test = (0) => ...;
+
+      // 매개변수 없을때
+      let test1 = => ...; // error
+      let test1 = () => ...;
+
+      // 매개 변수가 2개 이상 일때
+      let test1 = 0, 2 => ...; // error
+      let test1 = (0, 2) => ...;
+
+**this**
+
+      // es5
+
+      var obj = {
+        _name: 'test',
+        _arr: [],
+        print: function() {
+          this // 자신을 갖는 객체를 가리킴          
+        }
+      };
+
+      // es6 객체내의 arrow function
+      var obj = {
+        _name: 'test',
+        print: () => {
+          this // window를 가리킴
+        }
+      };
+
+      // 메서드에는 arrow function을 쓰지 않는다.
+      // 하지만 메서드 내에서는 arrow function을 사용해도 된다.
+
+## [6-6] 전개 연산자와 기본, 나머지 매개변수
+
+**ES6 : 전개 연산자와 기본, 나머지 매개변수**
+기본 함수 매개변수(default function parameter)를 사용하면 값이 없거나 undefined가 전달될 경우 매개변수를 기본값으로 초기화할 수 있습니다.
+
+나머지 매개변수(rest parameter) 구문은 정해지지 않은 수(an indefinite number, 부정수) 인수를 배열로 나타낼 수 있게 합니다.
+
+전개 연산자(spread operator)는 표현식(expression)은 2개 이상의 인수(함수 호출 용)나 2개 이상의 요소(배열 리터럴 용) 또는 2개 이상의 변수(비구조화 할당 용)가 예상되는 곳에 확장될 수 있도록 합니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [기본 매개변수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+- [나머지 매개변수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+- [전개 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_operator)
