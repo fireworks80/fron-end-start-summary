@@ -176,3 +176,44 @@ const 선언은 값에 읽기 전용 참조를 생성합니다. 담긴 값이 �
 - [기본 매개변수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 - [나머지 매개변수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 - [전개 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+
+## [6-7] 속기형 속성 (Shorthand Properties)
+
+**ES6 : 객체 초기자 / 메서드 정의**
+객체는 new Object(), Object.create() 또는 literal 표기법 (initializer 표기법)을 사용하여 초기화 될 수 있습니다. 
+객체 초기자(object initializer)는 0개 이상인 객체 속성명, 관련값 쌍 목록입니다.
+
+ECMAScript 2015를 시작으로, 객체 초기자(initializer)에 메서드 정의를 위한 더 짧은 구문이 도입되었습니다. 
+이는 메서드 명에 할당된 함수를 위한 단축입니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [객체 초기자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Object_initializer)
+- [객체 메서드 정의](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Method_definitions)
+
+## [6-8] 향상된 객체 표기법 / 심볼 (Symbol)
+
+**ES6 : 향상된 객체 표기법 / Symbol 활용**
+get 구문은 객체의 프로퍼티를 그 프로퍼티를 가져올 때 호출되는 함수로 바인딩 합니다. 
+반면 set 구문은 어떤 객체의 속성에 이 속성을 설정하려고 할 때 호출되는 함수를 바인드 합니다.
+
+심볼(symbol)은 고유하고 수정 불가능한 데이터 타입이며 주로 객체 속성(object property)들의 식별자로 사용됩니다. 심볼 객체(symbol object) 는 심볼 기본형 변수(primitive data type)의 암묵적(implicit) 객체 래퍼(wrapper)입니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [getter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/get)
+- [setter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/set)
+- [Symbol](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
+
+## [6-9] 비구조화 할당 (Destructuring Assignment)
+
+**비구조화 할당(destructuring assignment)**
+비구조화 할당 구문은 배열의 값이나 객체의 속성을 별개의 변수로 추출할 수 있게 하는 자바스크립트 식(expression)입니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [비구조화 할당](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
