@@ -217,3 +217,137 @@ get 구문은 객체의 프로퍼티를 그 프로퍼티를 가져올 때 호출
 **참고자료**
 - [비구조화 할당](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
+## [6-10] 클래스 / 상속 / 오버라이딩
+
+**클래스/상속 활용 및 데이터 보호 관리**
+class 선언(declaration)은 프로토타입(원형) 기반 상속을 사용하여 주어진 이름으로 새로운 클래스를 만듭니다. 
+class 식(expression)을 사용하여 클래스를 정의할 수도 있습니다.
+
+**영상 강의 순서**
+
+1. 클래스(Class) 문법을 사용한 JavaScript 객체 지향 프로그래밍 (Sugar Syntax)
+2. 비공개(Private) 데이터 관리를 위한 방법들
+3. 스코프 내 지역 변수 방법으로 비공개 데이터를 관리하면 안되는 이유
+4. 서브 클래스(Sub Class) / 오버라이딩(Overriding)
+5. Object.setPrototypeOf() 메서드를 사용한 객체 상속
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [class](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/class)
+
+## [6-11] 모듈 활용 + Rollup 모듈 번들러 + Babel 컴파일러
+
+**모듈 활용**
+import 문은 외부 모듈이나 다른 스크립트 등으로부터 export 된 기능을 가져오는데 사용됩니다.
+export 문은 지정된 파일(또는 모듈)에서 함수 또는 오브젝트, 원시 타입들을 export 하는데 사용됩니다.
+
+[실습 파일](https://github.com/fireworks80/fron-end-start-summary/blob/master/exam/es6-modules.zip)
+을 다운로드 받아 실습해보세요. :-)
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [import](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/import)
+- [export](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/export)
+- [ECMAScript modules in browsers (2017)](https://jakearchibald.com/2017/es-modules-in-browsers/)
+- [롤업(Rollup) - 모듈 번들러](https://rollupjs.org/guide/en)
+- [웹팩(Webpack) - 모듈 번들러](https://webpack.js.org/)
+
+## [6-12] for ~ of 문 / 이터레이션 프로토콜 / 제너레이터
+
+for...of 문(statement)은 반복가능한 객체 (Array, Map, Set, String, TypedArray, arguments 객체 등을 포함)에 
+대해서 반복하고 각 개별 속성값에 대해 실행되는 문이 있는 사용자 정의 반복 후크를 호출하는 루프를 생성합니다.
+
+ECMAScript 2015 (ES6)에는 새로운 문법이나 built-in 뿐만이 아니라, protocols(표현법들)도 추가되었습니다. 
+이 protocol 은 일정 규칙만 충족한다면 어떠한 객체에 의해서도 구현될 수 있습니다
+Generator 객체는 generator function 으로부터 반환된 값이며 반복자와 반복자 프로토콜을 준수합니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [for ~ of](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/for...of)
+- [Iterator](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Iteration_protocols)
+- [Generator](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Generator)
+
+## [6-13] 배열(Array) 객체의 새로운 메서드
+
+**ES6 : 배열 객체의 새로운 메서드**
+배열 객체에 새롭게 추가된 인스턴스 메서드에 대해 알아봅시다. :-)
+기존에는 별도의 헬퍼 함수를 만들어야 했던 기능을 이제는 기본적으로 제공해줍니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [Array.from](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+- [Array.of](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/of)
+- [Array.prototype.keys](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/keys)
+- [Array.prototype.values](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/values)
+- [Array.prototype.entries](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
+- [Array.prototype.find](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+- [Array.prototype.findIndex](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+- [Array.prototype.includes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+- [Array.prototype.fill](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
+- [Array.prototype.copyWithin](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
+
+## [6-14] 셋 (Set)  맵 (Map)
+
+**ES6 : 세트 (Set) / 맵 (Map) 객체 활용**
+Set 객체는 값 콜렉션(Collections)으로 삽입된 순서대로 요소들을 반복(iterate) 할 수 있습니다.
+Map 객체는 속성(Key)/값(Value) 쌍으로 구성된 객체입니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+y9Set 사용자정의 클래스 메서드 설정 (Set 클래스 상속)
+
+    class y9Set extends Set {
+
+      // 합집합
+      union(x){ return new Set([...this, ...x]) }
+
+      // 교집합
+      intersect(x){return new Set([...this].filter(y => x.has(y)))}
+
+      // 차집합
+      diff(x){return new Set([...this].filter(y => !x.has(y)))}
+
+      // 상위 집합 유무 확인
+      isSuperset(x){
+        for (let y of x) {
+          if (!this.has(y)) { return false; }
+        }
+        return true;
+      }
+
+    }
+
+**참고자료**
+- [Set 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [Map 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+## [6-15] 위크셋(WeakSet) / 위크맵(WeakMap)
+
+**ES6 : 위크셋(WeakSet) / 위크맵(WeakMap) 객체 활용**
+WeakSet 객체는 Set 객체와 유사합니다만, Set 객체와 달리 객체만 수집할 수 있고 약한 참조가 이루어져 
+메모리 누수를 예방할 수 있습니다. WeakMap 객체는 Map 객체와 유사하지만, Map 객체와 달리 객체만 
+수집할 수 있고 약한 참조가 이루어져 메모리 누수를 예방할 수 있습니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [WeakSet 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)
+- [WeakMap 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
+- [difference between set and weakset in javascript](http://qnimate.com/difference-between-set-and-weakset-in-javascript/)
+
+## [6-16] 프로미스 (Promise) / Fetch API
+
+**ES6 : 프로미스 (Promise) 활용**
+Promise는 비동기 조작의 최종 완료(Resolve) 또는 실패(Reject)를 나타내는 객체입니다.
+
+그리고 Fetch API를 이용하면 Request나 Resposne와 같은 HTTP의 파이프라인을 구성하는 요소를 조작하는것이 가능합니다.
+
+- [slide](https://slides.com/yamoo9/es6)
+
+**참고자료**
+- [Promise 사용법](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Using_promises)
+- [Fetch 사용법](https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95)
