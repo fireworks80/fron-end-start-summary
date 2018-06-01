@@ -22,14 +22,20 @@
 
 - [문법과 타입](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
 
-### [4-6] 인터랙션 디자인의 시작 - "an문서 객체가 가진 값 그리고 변수"
-....
+### [4-6] 인터랙션 디자인의 시작 - "문서 객체가 가진 값 그리고 변수"
+
+#### 실습자료
+- [JavaScript - 인풋/아웃풋 (실습 시작) with codepen.io](https://codepen.io/fireworks80/pen/BVNEVe)
 
 ### 4-7 데이터 유형(Data Types) & 리터럴(Literal)
-....
+
+#### 실습자료
+- [JavaScript - 네이밍 컨벤션 / 데이터 유형 with codepen.io](https://codepen.io/fireworks80/pen/zaGQrR)
 
 ### 4-8 변수 이름 작성 규칙(Naming Convention)
-....
+
+#### 실습자료
+- [JavaScript - 네이밍 컨벤션 / 데이터 유형 with codepen.io](https://codepen.io/fireworks80/pen/vrOwLM)
 
 
 ### 4-9 동적 형 지정 언어 & 자동 형 변환
