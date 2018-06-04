@@ -40,6 +40,12 @@
 
 ### 4-9 동적 형 지정 언어 & 자동 형 변환
 
+#### 동적 형 지정 언어
+JavaScript는 동적 형지정 언어입니다. 이는 변수를 선언할 때 데이터 형을 지정할 필요가 없음을 의미합니다. 또한 데이터 형이 스크립트 실행 도중 필요에 의해 자동으로 변환 됨을 뜻합니다.
+
+- [실습 codepen](https://codepen.io/fireworks80/pen/Yvwrwj)
+- [paerseInt()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+
         parseInt('문자열', '진법'); // 숫자로된 문자 뿐만 아니라 글자가 있는 숫자 값도 숫자로 파싱됨
 
         e.g.) parseInt('10px', 10); // 10 (Number)
@@ -52,13 +58,26 @@
 ### 4-10 문서 객체의 ID 속성 이름 값 만으로 대상을 선택해서는 안되는 이유
 
 - [변수의 호이스팅](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#%EB%B3%80%EC%88%98_%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85)
+- [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/spacebar-boy.zip)
 
-### 4-11 문서객체 접근
+### [4-11] DOM API - 문서 객체(들)에 접근하는 방법
+
+[#해쉬코드 질문 getElementById()는 querySelector() 보다 빠를까?](https://hashcode.co.kr/questions/5692/%EA%B0%95%EC%9D%98-4-11-queryselector%EC%97%90-%EC%84%B1%EB%8A%A5%EB%AC%B8%EC%A0%9C%EC%97%90-%EB%8C%80%ED%95%B4-%EC%A7%88%EB%AC%B8-%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4)에 답변한 내용을 살펴보세요. 속도와 편의성. 여러분의 선택은?
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/DOM-API__accessing-document-objects.zip)
 
+#### 참고자료
+- [getElementsByTagName()](https://developer.mozilla.org/ko/docs/Web/API/Document/getElementsByTagName)
+- [getElementById()](https://developer.mozilla.org/ko/docs/Web/API/Document/getElementById)
+- [getElementsByClassName()](https://developer.mozilla.org/ko/docs/Web/API/Document/getElementsByClassName)
+- [querySelector()](https://developer.mozilla.org/ko/docs/Web/API/Document/querySelector)
+- [querySelectorAll()](https://developer.mozilla.org/ko/docs/Web/API/Document/querySelectorAll)
+- [노드(Node)](https://developer.mozilla.org/ko/docs/Web/API/Node)
+- [요소 노드(Element Node)](https://developer.mozilla.org/ko/docs/Web/API/Element)
+- [노드리스트(NodeList)](https://developer.mozilla.org/ko/docs/Web/API/NodeList)
+
         tagName명으로 선택
-        var tags = document.getElementsByTagName('태그명'); // HTMLCollection으로 반환
+        var tags = document.getElementsByTagName('태그명'); // HTMLCollection
         tags.item(0); // 0번부터 선택
         tags[0]; // 위와 같음
 
@@ -67,7 +86,7 @@
         document.getElementById('아이디명');
 
         class 속성값으로 선택
-        document.getElementsByClassName('클래스 속성명'); // HTMLCollection으로 반환
+        document.getElementsByClassName('클래스 속성명'); // HTMLCollection
 
         css 선택자로 선택
         document.querySelector('css 선택자 명);
@@ -76,8 +95,25 @@
         * HTMLCollection은 예전 버전에서 사용 했으므로 더이상 사용하지 말것
         * NodeList의 사용을 권장한다.
 
-### 4-12 함수(내장함수 / 사용자 정의 함수)
+### [4-12] 함수(Functions) - 미리 정의된(내장) 함수와 사용자 정의 함수
 
+JavaScript 함수는 프로시저(procedure, 절차)로 일을 하는 데 거쳐야 하는 일정한 차례와 방법을 말합니다. 
+쉽게 말해 할 일의 묶음이라고 말할 수 있습니다. 
+예를 들어 장보기(쇼핑)을 함수로 만든다면 다음과 같은 절차를 만들 수 있습니다. 
+함수는 정리된 절차의 할 일을, 호출 과정을 통해 수시로 실행할 수 있습니다.
+
+**장보기(쇼핑)**
+
+1. 장 볼 상품의 목록을 작성한다.
+2. 목록에 따라 상품을 검색한다.
+3. 상품의 상태를 확인한다.
+4. 구매할 수량을 입력한다.
+5. 장바구니에 담는다.
+6. 장바구니에 담긴 항목을 확인한다.
+7. 결재한다.
+
+#### 참고자료
+- [JavaScript 함수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%ED%95%A8%EC%88%98)
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/JavaScript-Functions.zip)
 
 ### 4-13 조건문
