@@ -118,9 +118,24 @@ JavaScript 함수는 프로시저(procedure, 절차)로 일을 하는 데 거쳐
 
 ### 4-13 조건문
 
+#### 조건문
+JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 시키며, 거짓일 경우는 실행시키지 않습니다. JavaScript에서 사용 되는 조건문은 if ~ else문과 Switch 문이 있습니다. 각 조건문에 대해 살펴보고 익혀봅시다.
+
+#### 참고자료
+- [JavaScript 조건문](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#%EC%A1%B0%EA%B1%B4%EB%AC%B8)
+- [helper.js - revision 1](https://gist.github.com/yamoo9/2e75913037a3b455185bed502d74ec3e/6413eafa5c42cff1d736bf64d40235ca5eb6ccdc)
+
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-conditions-if-else.zip)
 
-### 4-14 비교연산자와 논리연산자를 활요한 조건문
+### [4-14] 비교 연산자와 논리 연산자를 활용한 조건문
+
+#### 참고자료
+- [비교 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%EB%B9%84%EA%B5%90_%EC%97%B0%EC%82%B0%EC%9E%90)
+- [논리 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%EB%85%BC%EB%A6%AC_%EC%97%B0%EC%82%B0%EC%9E%90)
+- [typeof](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/typeof)
+- [trim()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/Trim)
+- [nodeType](https://developer.mozilla.org/ko/docs/Web/API/Node/nodeType)
+- [helper.js - revision 3](https://gist.github.com/yamoo9/2e75913037a3b455185bed502d74ec3e/885dd37a72cc6ab67f80b35a5edf8d7e2de2f432)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-operators-typeof.zip)
 
