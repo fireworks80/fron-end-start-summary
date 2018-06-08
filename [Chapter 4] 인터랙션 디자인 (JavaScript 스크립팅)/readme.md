@@ -276,7 +276,7 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
 
     script async: html파싱이 되면서 js도 같이 다운로드 되지만 js가 실행이 될때는 html의 파싱이 멈춘뒤 js의 실행이 끝나고 html의 나머지가 다시 파싱이 된다.
  
- ### 4-22 값복사 / 값 참조
+### 4-22 값복사 / 값 참조
 
 #### 참고자료
 - [데이터 복사, 전달 및 비교](https://docs.microsoft.com/ko-kr/scripting/javascript/advanced/copying-passing-and-comparing-data-javascript)
@@ -296,9 +296,15 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
     - object
     - function
 
- ### 4-23 함수영역 vs 블록영영
+### [4-23] 함수 영역(Function Scope) vs 블록 영역(Block Scope)
+
+#### 참고자료
+- [변수 영역](https://ko.wikipedia.org/wiki/%EB%B3%80%EC%88%98_%EC%98%81%EC%97%AD)
+- [전역(전 영역)](https://ko.wikipedia.org/wiki/%EB%B3%80%EC%88%98_%EC%98%81%EC%97%AD#%EC%A0%84%EC%97%AD)
+- [함수 영역](https://ko.wikipedia.org/wiki/%EB%B3%80%EC%88%98_%EC%98%81%EC%97%AD#%ED%95%A8%EC%88%98_%EC%98%81%EC%97%AD)
+- [블록 영역](https://ko.wikipedia.org/wiki/%EB%B3%80%EC%88%98_%EC%98%81%EC%97%AD#%EB%B8%94%EB%A1%9D_%EC%98%81%EC%97%AD)
+
  - [codepen 실습](https://codepen.io/fireworks80/pen/jxmwZL)
- - [변수, 전역, 함수, 블록 영역 wiki](https://ko.wikipedia.orgwiki/%EB%B3%80%EC%88%98_%EC%98%81%EC%97%AD)
     
     javascript는 c 언어의 영향을 받았지만 블록 스코프를 지원 하지 않는다.
     하지만 ECMAScript 2015(es6)를 사용하게 되면서
@@ -306,11 +312,13 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
 
 ### 4-24 변수, 함수 호이스팅 / 스코프체이닝
 
-- [codepen 실습](https://codepen.io/fireworks80/pen/wjdeNd?editors=0010)
+#### 참고자료
 - [호이스팅 mdn](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
 - [변수 mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/var)
 - [함수 mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/function)
 - [스코프 체이닝](http://knphouse.co.kr/91)
+
+- [codepen 실습](https://codepen.io/fireworks80/pen/wjdeNd?editors=0010)
     
     실행컨텍스트: 실행되는 영역
     
@@ -370,8 +378,10 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
 
 ### 4-25 IIFE 
 
-- [codepen](https://codepen.io/fireworks80/pen/ELXgbB)
+#### 참고자료
 - [mdn iife](https://developer.mozilla.org/ko/docs/Glossary/IIFE)
+
+- [codepen](https://codepen.io/fireworks80/pen/ELXgbB)
 
     (function() {
             // 1. ()로 둘러쌓인 익명함수
@@ -382,20 +392,24 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
 
 ### 4-26 closure
 
+#### 참고자료
+- [클로저(Closures)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures)
+- [함수 객체의 .bind() 메서드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+
 - [codepen](https://codepen.io/fireworks80/pen/WJOoOW)
-- [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures)
 
     // 함수와 함수가 선언된 어휘적 환경(Lexical scoping)(자유변수)의 조합
     
-
-** 리팩토링 **
+### [미션 4-6] 코드 리팩토링(Refactoring)
 - 리팩토링은 새로운 기능 추가 없이 소스 코드의 구조(조직적,체계적)를 향상시키는 일련의 과정
 - 리팩토링의 목적은 기술적 부채(technical debt)를 값아서 없애는 것
 - 리팩토링의 결과로 깔끔한 코드(clean code)와 심플한 설계를 얻는 것
 
-- [codepen](https://codepen.io/fireworks80/pen/deRVMW)
+#### 참고자료
 - [리팩토링이란?](http://kwangshin.pe.kr/blog/2015/02/17/refactoring-study/)
 - [리팩토링 slideshare](https://www.slideshare.net/bbongcsu/refactoring-tutorial-1refactoring)
+
+- [codepen](https://codepen.io/fireworks80/pen/deRVMW)
 
 ### 4-27 숫자 / 수학 객체 
 
