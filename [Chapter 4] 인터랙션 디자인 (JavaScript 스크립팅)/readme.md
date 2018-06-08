@@ -141,13 +141,24 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
 
         * typeof는 Array, null을 'object'값을 리턴한다.
 
-### 4-15 switch, Date
+### [4-15] 또 다른 조건문 - switch 문. 그리고 날짜(Date) 객체
 
+#### 참고자료
+
+- [switch문](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#switch%EB%AC%B8)
+- [switch문 활용 예시](https://jsfiddle.net/1qsfropn/3/)
+- [Date 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [ISO 8601: 날짜와 시간과 관련된 데이터 교환을 다루는 국제 표준](https://ko.wikipedia.org/wiki/ISO_8601)
+- [textContent](https://developer.mozilla.org/ko/docs/Web/API/Node/textContent)
+- [setInterval() 함수](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
+- [setAttribute() 메서드](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+
+#### 예제
 - [switch](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-condition-switch.zip)
 - [date](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-date-object.zip)
 - [switch-display-datetime](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/js-date-switch-display-datetime.zip)
 
-### 4-16 문(statement), 식(expression)
+### [4-16] 조건(3항) 연산자 식 & 논리 연산자를 사용한 조건 처리
 
 - [식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Expressions_and_Operators#%ED%91%9C%ED%98%84)
 - [문](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements)
@@ -161,7 +172,8 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
 
 ### 4-17 DOM API 이벤트 핸들링
 
-- [mdn](https://developer.mozilla.org/ko/docs/Web/API/Event)
+- [이벤트](https://developer.mozilla.org/ko/docs/Web/API/Event)
+- [이벤트 핸들러](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers)
 
   event handler는 DOM event에 연결된 함수.
 
@@ -177,9 +189,18 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
 - [오디오 객체 메서드](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play)
 - [오디오 객체 currentTime](https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/currentTime)
 
+- [실습](https://codepen.io/fireworks80/pen/Kegqjq)
+
 ### 4-19 Keyboard event
 
-- [mdn](https://developer.mozilla.org/ko/docs/Web/API/KeyboardEvent)
+#### 참고자료
+
+- [키보드 이벤트(Keyboard Event) MDN](https://developer.mozilla.org/ko/docs/Web/API/KeyboardEvent)
+- [키보드 이벤트 MSDN](https://docs.microsoft.com/ko-kr/dotnet/framework/winforms/using-keyboard-events)
+- [키보드 이벤트 code 속성](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code)
+- [addEventListener()](https://developer.mozilla.org/ko/docs/Web/API/EventTarget/addEventListener)
+- [keydown / kewpress / keyup 차이점](https://codepen.io/yamoo9/full/vRmeQZ/)
+- [classList](https://developer.mozilla.org/ko/docs/Web/API/Element/classList)
         
         // 키보드 이벤트 핸들링 (Keyboard Event Handling)
         //
@@ -200,6 +221,14 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
 
 ### 4-20 배열(Array)과 반복(while, do while, for, for in)
 
+#### 참고자료
+- [루프와 반복 (Loops and iteration)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Loops_and_iteration)
+- [배열 (Array) 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [배열 객체의 push() 메서드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [배열 객체의 pop() 메서드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+- [codepen.io에서 무한 루프에 빠져 브라우저가 다운되는 경우 해결책](https://blog.codepen.io/documentation/features/turn-off-javascript-in-previews/)
+- [Adobe Color CC](https://color.adobe.com/ko/explore/?filter=most-popular&time=month)
+
         var menuList = els('.list');
 
         var openPannel = function(e) {
@@ -214,11 +243,21 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
           item.addEventListener('click', openPannel);
         }
 
-### 4-21 이벤트 Load vs DOMContentLoaded
+### offcanvas mission
 
-- [async & defer 속성간 차이](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
-- [Asynchronouse vs Deferred JavaScript](https://bitsofco.de/async-vs-defer/)
-- [script의 async 와 defer 속성(한글)](https://blog.asamaru.net/2017/05/04/script-async-defer/)
+- [mission](https://codepen.io/fireworks80/pen/GGNrrw)
+
+### [4-21] Load vs DOMContentLoaded 이벤트 / async vs defer 속성
+
+#### 참고자료
+- [이벤트 레퍼런스(Event Reference)](https://developer.mozilla.org/en-US/docs/Web/Events)
+- [로드(Load) 이벤트](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload)
+- [DOMContentLoaded 이벤트](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded)
+- [async & defer 속성 간 차이점](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
+- [Asynchronous vs Deferred JavaScript](https://bitsofco.de/async-vs-defer/)
+- [script의 async와 defer 속성(한글)](https://blog.asamaru.net/2017/05/04/script-async-defer/)
+
+
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/interaction/exam/load-vs-dom_content_loaded--aysn-vs-defer.zip)
     
     서버에 요청한 Javascript 파일이 다운로드/실행되는 동안 HTML 해석(Parsing)은 일시정지 (Paused)상태가 된다. 이런 이유로 Javascript 호출/삽입 위치는 사용자 경험(UX)에 큰 영향을 미친다.
@@ -239,10 +278,11 @@ JavaScript 조건문은 조건이 참일 경우, 코드 블록(block)을 실행 
  
  ### 4-22 값복사 / 값 참조
 
-- [codepen 실습](https://codepen.io/fireworks80/pen/QrvgGd)
+#### 참고자료
 - [데이터 복사, 전달 및 비교](https://docs.microsoft.com/ko-kr/scripting/javascript/advanced/copying-passing-and-comparing-data-javascript)
 - [java에서의 값 복사 / 값 참조](http://www.mathwarehouse.com/programming/passing-by-value-vs-by-reference-visual-explanation.php)
 
+- [codepen 실습](https://codepen.io/fireworks80/pen/QrvgGd)
 
     값복사
     - null
