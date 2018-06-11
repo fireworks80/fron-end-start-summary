@@ -94,3 +94,19 @@
 ### 참고자료
 - [Pixel Density, Demystified](https://medium.com/@pnowelldesign/pixel-density-demystified-a4db63ba2922)
 - [Pixel Density, Demystified (번역 글)](https://brunch.co.kr/@blackindigo-red/18)
+
+## [3-8] RWD 중단점과 미디어 쿼리 (Breakpoint & Media Queries)
+
+- [실습]{https://codepen.io/fireworks80/pen/pKegXW}
+
+### 참고자료
+- [응답형 및 기기별 뷰포트 테스트](https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports?hl=ko)
+- [Stat Counter](http://gs.statcounter.com/)
+- [W3 Counter](https://www.w3counter.com/globalstats.php)
+- [internettrend.co.kr](http://www.internettrend.co.kr/trendForward.tsp)
+- [viewportsizes.com](http://viewportsizes.com/)
+- [Troy 서비스](http://troy.labs.daum.net/)
+- [resizer](https://material.io/tools/resizer/)
+- [iPhone X Screen Demystified](https://www.paintcodeapp.com/news/iphone-x-screen-demystified)
+- [The Ultimate Guide To iPhone Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
+- [Samsung Galaxy S9, S9+ User Agent String](https://51degrees.com/blog/samsung-galaxy-s9-and-s9-user-agents)

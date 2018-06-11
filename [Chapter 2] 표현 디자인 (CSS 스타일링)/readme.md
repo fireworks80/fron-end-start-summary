@@ -3,8 +3,13 @@
 ## 표현디자인
 
 ### 1. css 란?
-- [css current work](https://www.w3.org/Style/CSS/current-work)
-- [css는 어떻게 동작하는가](https://developer.mozilla.org/ko/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works)
+
+####참고자료
+- [CSS Current Work](https://www.w3.org/Style/CSS/current-work)
+- [CSS 2.1 기술 표준 문서](https://www.w3.org/TR/CSS2/)
+- [CSS 지도서](https://developer.mozilla.org/ko/docs/Web/CSS)
+- [CSS3 모듈화 과정](https://developer.mozilla.org/ko/docs/Web/CSS/CSS3)
+- [CSS는 어떻게 작동할까?](https://developer.mozilla.org/ko/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works)
 
 ### 2. css 스타일링 방법 3가지
 - inline style
