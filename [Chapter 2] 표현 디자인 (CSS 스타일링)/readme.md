@@ -4,21 +4,31 @@
 
 ### 1. css 란?
 
-####참고자료
+#### 참고자료
 - [CSS Current Work](https://www.w3.org/Style/CSS/current-work)
 - [CSS 2.1 기술 표준 문서](https://www.w3.org/TR/CSS2/)
 - [CSS 지도서](https://developer.mozilla.org/ko/docs/Web/CSS)
 - [CSS3 모듈화 과정](https://developer.mozilla.org/ko/docs/Web/CSS/CSS3)
 - [CSS는 어떻게 작동할까?](https://developer.mozilla.org/ko/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works)
 
-### 2. css 스타일링 방법 3가지
+### [2-2] CSS를 사용해 HTML 문서를 스타일링하는 3가지 방법
 - inline style
 - internal style
 - external style
 
-### 3. css 선택자
+#### 참고자료
+
+- [CSS는 실제로 어떻게 작동할까?](https://developer.mozilla.org/ko/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works#CSS%EB%A5%BC_HTML%EC%97%90_%EC%A0%81%EC%9A%A9%ED%95%98%EB%8A%94_%EB%B0%A9%EB%B2%95)
+
+- [download](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-basic-syntax.zip)
+
+### [2-3] CSS 선택자(Selectors)
 
 [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-selectors.zip)
+
+#### 참고자료
+- [CSS 선택자](https://developer.mozilla.org/ko/docs/Learn/CSS/Introduction_to_CSS/%EC%84%A0%ED%83%9D%EC%9E%90)
+- [반드시 기억해야 하는 CSS 선택자 30개](https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 - **간단한 선택자**: 하나 이상의 요소에 element type, class 또는 id에 따라 대응합니다.
 
@@ -35,23 +45,46 @@
 - **다중 선택자**: 마찬가지로, 실제 선택자는 아닙니다. 한 개의 CSS 규칙에 여러개의 선택자를 쉼표로 구분하여
             정의하면, 그 선택자들에 해당하는 모든 요소들을 한번에 선택할 수 있습니다.(역주 : OR)
 
-### 4. css 상속
+### mission 2-1
+
+- [css diner](https://flukeout.github.io/)
+
+### [2-4] CSS 상속(Inheritance)
+
+#### 참고자료
+- [CSS 상속(Inheritance)](https://developer.mozilla.org/ko/docs/Web/CSS/inheritance)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-inheritance.zip)
 
-### 5. css Cascade
+### [2-5] CSS 케스케이드(Cascade)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-cascade.zip)
 
+#### 참고자료
+
+- [CSS 케스케이드(Cascade)](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance)
+- [class 속성 개수가 11개면 id 속성 보다 우선할까요?](https://hashcode.co.kr/questions/5415/2-5-css-%EC%BC%80%EC%8A%A4%EC%BC%80%EC%9D%B4%EB%93%9Ccascade-%EC%97%90%EC%84%9C-%EC%A7%88%EB%AC%B8%EC%9D%B4-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4)
+
 여러개의 css파일을 결합할때 충돌을 해결하는 프로세스가 cascade이다.
 
-### 6. 타이포그래피
+### [2-6] CSS 타이포그래피(Typography)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-typography.zip)
 
-### 7. 박스모델
+- [포토샵에서의 타이포그래피 설정과 브라우저 상에서 렌더링되는 CSS와 차이가 납니다. 왜 그런 건가요?](https://hashcode.co.kr/questions/5536/%ED%8F%AC%ED%86%A0%EC%83%B5%EC%97%90%EC%84%9C%EC%9D%98-%ED%83%80%EC%9D%B4%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BC-%EC%84%A4%EC%A0%95%EA%B3%BC-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%83%81%EC%97%90%EC%84%9C-%EB%A0%8C%EB%8D%94%EB%A7%81%EB%90%98%EB%8A%94-css%EC%99%80-%EC%B0%A8%EC%9D%B4%EA%B0%80-%EB%82%A9%EB%8B%88%EB%8B%A4)
+
+#### 참고자료
+- [CSS 폰트/텍스트 스타일링](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
+
+
+### [2-7] CSS 박스모델 (Box Model)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-box-model.zip)
+
+#### 참고자료
+- [CSS 박스 모델](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
+- [CSS 박스 스타일링](https://developer.mozilla.org/ko/docs/Learn/CSS/Styling_boxes)
+- [CSS 레이아웃을 배웁시다 - box model](http://ko.learnlayout.com/box-model.html)
 
 ### 8. list 스타일링
 
