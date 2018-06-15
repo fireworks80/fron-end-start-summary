@@ -86,47 +86,102 @@
 - [CSS 박스 스타일링](https://developer.mozilla.org/ko/docs/Learn/CSS/Styling_boxes)
 - [CSS 레이아웃을 배웁시다 - box model](http://ko.learnlayout.com/box-model.html)
 
-### 8. list 스타일링
+### [2-8] CSS 리스트(Lists) 스타일링
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-list-styling.zip)
 
-### 9. 배경
+#### 참고자료
+- [리스트 스타일링](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists)
+- [리스트 스타일 유형](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type)
+
+- [margin collapsing 현상](https://hashcode.co.kr/questions/5356/list-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81%ED%95%A0-%EB%95%8C-margin%EA%B3%BC-padding%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A7%88%EB%AC%B8%EC%9E%85%EB%8B%88%EB%8B%A4)
+
+### [2-9] CSS 배경(Backgrounds)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-backgrounds.zip)
 
-### 10. 플로팅
+#### 참고자료
+- [CSS 배경 스타일링](https://developer.mozilla.org/ko/docs/Learn/CSS/Styling_boxes/Backgrounds)
+- [background-clip 속성](https://developer.mozilla.org/ko/docs/Web/CSS/background-clip)
+- [background-origin 속성](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin)
+
+### [2-10] CSS 레이아웃 - 플로팅(Floating)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-layout-floating.zip)
 
-### 11. 포지셔녕
+#### 참고자료
+- [CSS 레이아웃](https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout)
+- [CSS 레이아웃을 배웁시다 - normal layout flow](http://ko.learnlayout.com/no-layout.html)
+- [CSS 레이아웃을 배웁시다 - float](http://ko.learnlayout.com/float.html)
+- [CSS 레이아웃을 배웁시다 - clear](http://ko.learnlayout.com/clear.html)
+- [CSS 레이아웃을 배웁시다 - clearfix](http://ko.learnlayout.com/clearfix.html)
+- [CSS 레이아웃을 배웁시다 - float layout](http://ko.learnlayout.com/float-layout.html)
+
+### [2-11] CSS 레이아웃 - 포지셔닝(Positioning)
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-layout-positioning.zip)
 
-### 12. 테이블 스타일링
+#### 참고자료
+- [CSS 레이아웃](https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout)
+- [CSS 레이아웃을 배웁시다 - position](http://ko.learnlayout.com/position.html)
+- [CSS 레이아웃을 배웁시다 - position 예제](http://ko.learnlayout.com/position-example.html)
+
+### [2-12] CSS 테이블(Table) 스타일링
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-table-styling.zip)
 
-### 13. 폼 스타일링
+#### 참고자료
+- [테이블 스타일링](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables)
+- [border-collapse](https://developer.mozilla.org/ko/docs/Web/CSS/border-collapse)
+- [border-spacing](https://developer.mozilla.org/ko/docs/Web/CSS/border-spacing)
+- [caption-side](https://developer.mozilla.org/ko/docs/Web/CSS/caption-side)
+- [empty-cells](https://developer.mozilla.org/ko/docs/Web/CSS/empty-cells)
+- [table-layout](https://developer.mozilla.org/ko/docs/Web/CSS/table-layout)
+
+- [테이블 요소 앞에 요약 요소를 위치시킨 이유가 무엇일까](https://hashcode.co.kr/questions/5468/2-12-css-%ED%85%8C%EC%9D%B4%EB%B8%94table-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81-%EA%B0%95%EC%9D%98%EC%97%90%EC%84%9C-%EC%A7%88%EB%AC%B8-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4)
+
+### [2-13] CSS 폼(Form) 스타일링
 
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/css-form-styling.zip)
 
-### 14. css 2d 트랜스폼
+#### 참고자료
+- [폼 스타일링](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms)
+- [폼 스타일링 고급](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Advanced_styling_for_HTML_forms)
+- [커스텀 폼 컨트롤 만들기](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_build_custom_form_widgets)
 
-- [mdn](https://developer.mozilla.org/ko/docs/Web/CSS/transform)
+### [2-14] CSS 2D 트랜스폼(Transforms)
 
-### 15. css 트랜지션
+#### 참고자료
+- [트랜스폼 사용하기](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms)
+- [트랜스폼 문법](https://developer.mozilla.org/ko/docs/Web/CSS/transform)
+- [CSS Transforms (실습 완료) by codepen](https://codepen.io/fireworks80/pen/JZrGKd)
 
-- [mdn](https://developer.mozilla.org/ko/docs/Web/CSS/transition)
-- [Ceaser - css easing animation tool](https://matthewlein.com/tools/ceaser)
+### [2-15] CSS 트랜지션(Transition)
 
-### 16. css animation
+#### 참고자료
+- [트랜지션 사용하기](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+- [트랜지션 문법](https://developer.mozilla.org/ko/docs/Web/CSS/transition)
+- [easings.net](https://easings.net/ko)
+- [Ceaser - CSS EASING ANIMATION TOOL](https://matthewlein.com/tools/ceaser)
+- [CSS Transition (실습 완료) by codepen](https://codepen.io/fireworks80/pen/VdMeyb)
 
-- [mdn](https://developer.mozilla.org/ko/docs/Web/CSS/animation)
-- [easing.net](http://easings.net/ko)
+### [2-16] CSS 애니메이션(Animation)
 
-### 17. css transform
+#### 참고자료
+- [애니메이션 사용하기](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+- [애니메이션 문법](https://developer.mozilla.org/ko/docs/Web/CSS/animation)
+- [easings.net](https://easings.net/ko)
+- [Ceaser - CSS EASING ANIMATION TOOL](https://matthewlein.com/tools/ceaser)
+- [CSS Animation (실습 완료) by codepen](https://codepen.io/fireworks80/pen/ERwPqN)
 
-- [mdn](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transforms)
+### [2-17] CSS 3D 트랜스폼(Transforms)
+
+#### 참고자료
+- [3D 트랜스폼 사용하기](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms#3D_%EA%B4%80%EB%A0%A8_CSS_%EC%86%8D%EC%84%B1)
+- [트랜스폼 문법](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transforms)
+- [Transforms - Learn to Code Advanced](https://learn.shayhowe.com/advanced-html-css/css-transforms/)
+- [Intro to CSS 3D transforms](https://3dtransforms.desandro.com/)
+- [CSS 3D 트랜스폼 (실습 완료) by codepen](https://codepen.io/fireworks80/pen/PaJNmL)
 
 ### 18. css gradients
 
