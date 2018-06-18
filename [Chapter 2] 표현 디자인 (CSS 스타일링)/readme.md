@@ -183,20 +183,41 @@
 - [Intro to CSS 3D transforms](https://3dtransforms.desandro.com/)
 - [CSS 3D 트랜스폼 (실습 완료) by codepen](https://codepen.io/fireworks80/pen/PaJNmL)
 
-### 18. css gradients
+### [2-18] CSS 그레디언트(Gradients)
 
-- [mdn](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Images/Using_CSS_gradients)
+- [실습](https://codepen.io/fireworks80/pen/OEOwvy)
 
-### 19. flexbox(ie10+: 부분적용)
+#### 참고자료
+- [Using CSS Gradients](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Images/Using_CSS_gradients)
+- [선형(Linear) 그레디언트](https://developer.mozilla.org/ko/docs/Web/CSS/linear-gradient)
+- [원형(Radial) 그레디언트](https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient)
+- [둥근 테두리(Border Radius)](https://developer.mozilla.org/ko/docs/Web/CSS/border-radius)
+- [박스 그림자(Box Shadow)](https://developer.mozilla.org/ko/docs/Web/CSS/box-shadow)
+- [CSS 3D 그레디언트 (실습 완료) by codepen](https://codepen.io/yamoo9/full/RMRaYX)
 
-- [w3c](https://www.w3.org/TR/css-flexbox-1/)
-- [mdn](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Flexbox%EC%9D%98_%EA%B8%B0%EB%B3%B8_%EA%B0%9C%EB%85%90)
-- [blog](https://www.vobour.com/1-flexbox-%EC%9D%B4%ED%95%B4-%EB%8B%B9%EC%8B%A0%EC%9D%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EB%AA%A8%EB%93%A0-%EA%B2%83-understa)
-- [레이아웃을 배웁시다](http://ko.learnlayout.com/flexbox.html)
-- [css trick](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [flexbox cheatseet](https://yoksel.github.io/flex-cheatsheet/#order)
-- [flexbox 개구리 게임](http://flexboxfroggy.com/#ko)
-    
+### [미션 2-10] ARBUZZ 비주얼 디자인 ➡ 코드 디자인
+
+- [psd](https://www.filepicker.io/api/file/smkFux4QHK259qMRDXnQ)
+- [assetsLink](https://www.filepicker.io/api/file/ozPErqeQz6BJWWkk2MGH)
+- [assetsZip](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/arbuzz-assets.zip)
+- [ui-kit psd](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/ARBUZZ+UI-Kit.psd)
+
+### [2-19] CSS 모던 레이아웃 - 플렉스박스(Flexbox)
+
+#### 참고자료
+- [CSS 모던 레이아웃 - Flexbox 시작하기! (실습 용도)](https://codepen.io/fireworks80/pen/RJjYrr)
+- [CSS 모던 레이아웃 - Flexbox 인터랙티브 (실습)](https://codepen.io/fireworks80/pen/bKYxER)
+- [CSS Flexible Box Layout Module Level 1](https://www.w3.org/TR/css-flexbox-1/)
+- [Flexbox의 기본 개념](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Flexbox%EC%9D%98_%EA%B8%B0%EB%B3%B8_%EA%B0%9C%EB%85%90)
+- [Flexbox 이해: 당신이 알아야 할 모든 것](https://www.vobour.com/1-flexbox-%EC%9D%B4%ED%95%B4-%EB%8B%B9%EC%8B%A0%EC%9D%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EB%AA%A8%EB%93%A0-%EA%B2%83-understa)
+- [CSS 레이아웃을 배웁시다. - Flexbox](http://ko.learnlayout.com/flexbox.html)
+- [Solved by Flexbox (한국어 번역)](https://hyunseob.github.io/solved-by-flexbox-kr/)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox Cheatseet](https://yoksel.github.io/flex-cheatsheet/#order)
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+- [크로스 브라우징 / CSS모듈화 / 반응형 관련 질문드립니다.](http://fast-frontend.hashcode.co.kr/questions/5824/%ED%81%AC%EB%A1%9C%EC%8A%A4-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95-css%EB%AA%A8%EB%93%88%ED%99%94-%EB%B0%98%EC%9D%91%ED%98%95-%EA%B4%80%EB%A0%A8-%EC%A7%88%EB%AC%B8%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4)
+- [flex box 개구리 게임](http://flexboxfroggy.com/#ko)    
+
 ![컨테이너와 아이템 이미지](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/images/flex/flex1.PNG)
 
     ** container **
@@ -261,14 +282,25 @@
                    // align-items는 부모가 자식들에게 일괄적으로 적용
                    // align-self는 자식 자신한테 설정
 
-### 20. css 보더 이미지
+### [2-20] CSS 보더 이미지 (border-image)
 - [예제](https://github.com/fireworks80/fron-end-start-summary/blob/master/visual/exam/practice-assets.zip)
 - [실습 codepen](https://codepen.io/fireworks80/pen/odbojp)
 
-### 21. css 멀티 컬럼 레이아웃
+#### 참고자료
+- [border-image, W3C](https://www.w3.org/TR/css-backgrounds-3/#border-images)
+- [border-image, MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image)
+- [border-image, Sitepoint](https://www.sitepoint.com/css3-border-image/)
+
+### [2-21] CSS 멀티 컬럼(Multi Columns) 레이아웃
 - [살습 codepen](https://codepen.io/fireworks80/pen/GdoOow)
 
-### 22. css 그리드 레이아웃
+#### 참고자료
+- [CSS Multi-column Layout Module Level 1](https://www.w3.org/TR/css-multicol-1/)
+- [CSS 다단 레이아웃 사용](https://developer.mozilla.org/ko/docs/CSS3_Columns)
+
+### [2-22] CSS 모던 레이아웃 - 그리드(Grid)
+
+#### 실습자료
 - [css grid 용어](https://codepen.io/fireworks80/pen/WJrXJQ)
 - [간단한 그리드 레이아웃 (실습)](https://codepen.io/fireworks80/pen/odbodP)
 - [그리드 라인 인덱스를 사용한 아이템 위치 설절 (실습)](https://codepen.io/fireworks80/pen/pVgdKN)
@@ -282,3 +314,12 @@
 - [css grid playground](https://www.cssgridplayground.com/)
 - [css grid layout 한글 번역](https://github.com/fireworks80/CSS-Grid)
 - [css grid garden game](https://cssgridgarden.com/#ko)
+
+#### 참고자료
+- [CSS Grid Layout Module Level 1](https://www.w3.org/TR/css-grid-1/)
+- [CSS Grid Layout Module Level 2 (초안, 개발 중...)](https://www.w3.org/TR/css-grid-2/)
+- [INTRODUCTION TO CSS GRID LAYOUT](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout)
+- [CSS Grid 레이아웃 모듈 레벨 1(번역)](https://github.com/yamoo9/CSS-Grid)
+- [cssgridplayground.com](https://www.cssgridplayground.com/)
+- [gridbyexample.com](https://gridbyexample.com/)
+- [autoprefixer.github.io](https://autoprefixer.github.io/)
