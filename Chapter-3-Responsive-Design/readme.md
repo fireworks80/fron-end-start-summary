@@ -110,3 +110,16 @@
 - [iPhone X Screen Demystified](https://www.paintcodeapp.com/news/iphone-x-screen-demystified)
 - [The Ultimate Guide To iPhone Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 - [Samsung Galaxy S9, S9+ User Agent String](https://51degrees.com/blog/samsung-galaxy-s9-and-s9-user-agents)
+
+## [3-X] Folio 반응형 웹 사이트 구현
+### Folio RWD
+공부한 반응형 웹의 원리와 이론을 활용하여 Folio 웹사이트 시안을 분석한 다음 웹 사이트로 구현해보세요.
+모바일, 태블릿, 데스크탑 화면에 최적화된 뷰(View)를 최대한 제공할 수 있도록 만들어 보세요.
+
+Folio 디자인 시안은 다음과 같습니다. 첨부한 그래픽 리소스를 다운로드 받아 미션을 진행해보세요.
+[PSD.7z](https://www.filepicker.io/api/file/G6qamgPrSRimQ8dAyTlt) 파일은 Photoshop 파일이고, [Sketch.7z](https://www.filepicker.io/api/file/AbNYHkUxTom3n2CDKsLp) 파일은 스케치 애플리케이션(Mac 전용) 파일입니다.
+시안에 사용된 폰트는 [fonts.7z](https://www.filepicker.io/api/file/M0yk3j1qRhaTKtU45pc5) 파일을 다운로드 받으세요.
+
+### 참고자료
+- [Folio ui kit behance](https://www.behance.net/gallery/22832297/Folio-UI-Kit)
+- [Folio UI kit(구매)](https://ui8.net/products/folio-ui-kit)
